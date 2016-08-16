@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD66B4B21D62F84100CB8F4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD66B4B11D62F84100CB8F4F /* main.m */; };
+		BD66B4B51D62F84100CB8F4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD66B4B41D62F84100CB8F4F /* AppDelegate.m */; };
+		BD66B4B81D62F84100CB8F4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD66B4B71D62F84100CB8F4F /* ViewController.m */; };
+		BD66B4BB1D62F84100CB8F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD66B4B91D62F84100CB8F4F /* Main.storyboard */; };
+		BD66B4BD1D62F84100CB8F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD66B4BC1D62F84100CB8F4F /* Assets.xcassets */; };
+		BD66B4C01D62F84100CB8F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD66B4BE1D62F84100CB8F4F /* LaunchScreen.storyboard */; };
+		BD66B4CB1D62F84100CB8F4F /* DYJheartRateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD66B4CA1D62F84100CB8F4F /* DYJheartRateTests.m */; };
+		BD66B4D61D62F84100CB8F4F /* DYJheartRateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD66B4D51D62F84100CB8F4F /* DYJheartRateUITests.m */; };
+		BD66B4E51D62FA7400CB8F4F /* DYJHeartRateDetectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD66B4E41D62FA7400CB8F4F /* DYJHeartRateDetectionModel.m */; };
+		BD66B4EA1D62FC0C00CB8F4F /* LDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD66B4E71D62FC0C00CB8F4F /* LDProgressView.m */; };
+		BD66B4EB1D62FC0C00CB8F4F /* UIColor+RGBValues.m in Sources */ = {isa = PBXBuildFile; fileRef = BD66B4E91D62FC0C00CB8F4F /* UIColor+RGBValues.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD66B4C71D62F84100CB8F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD66B4A51D62F84100CB8F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD66B4AC1D62F84100CB8F4F;
+			remoteInfo = DYJheartRate;
+		};
+		BD66B4D21D62F84100CB8F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD66B4A51D62F84100CB8F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD66B4AC1D62F84100CB8F4F;
+			remoteInfo = DYJheartRate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD66B4AD1D62F84100CB8F4F /* DYJheartRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYJheartRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD66B4B11D62F84100CB8F4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD66B4B31D62F84100CB8F4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD66B4B41D62F84100CB8F4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD66B4B61D62F84100CB8F4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD66B4B71D62F84100CB8F4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD66B4BA1D62F84100CB8F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD66B4BC1D62F84100CB8F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD66B4BF1D62F84100CB8F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD66B4C11D62F84100CB8F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD66B4C61D62F84100CB8F4F /* DYJheartRateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYJheartRateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD66B4CA1D62F84100CB8F4F /* DYJheartRateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYJheartRateTests.m; sourceTree = "<group>"; };
+		BD66B4CC1D62F84100CB8F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD66B4D11D62F84100CB8F4F /* DYJheartRateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYJheartRateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD66B4D51D62F84100CB8F4F /* DYJheartRateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYJheartRateUITests.m; sourceTree = "<group>"; };
+		BD66B4D71D62F84100CB8F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD66B4E31D62FA7400CB8F4F /* DYJHeartRateDetectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYJHeartRateDetectionModel.h; sourceTree = "<group>"; };
+		BD66B4E41D62FA7400CB8F4F /* DYJHeartRateDetectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYJHeartRateDetectionModel.m; sourceTree = "<group>"; };
+		BD66B4E61D62FC0C00CB8F4F /* LDProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDProgressView.h; sourceTree = "<group>"; };
+		BD66B4E71D62FC0C00CB8F4F /* LDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDProgressView.m; sourceTree = "<group>"; };
+		BD66B4E81D62FC0C00CB8F4F /* UIColor+RGBValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBValues.h"; sourceTree = "<group>"; };
+		BD66B4E91D62FC0C00CB8F4F /* UIColor+RGBValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBValues.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD66B4AA1D62F84100CB8F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD66B4C31D62F84100CB8F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD66B4CE1D62F84100CB8F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD66B4A41D62F84100CB8F4F = {
+			isa = PBXGroup;
+			children = (
+				BD66B4AF1D62F84100CB8F4F /* DYJheartRate */,
+				BD66B4C91D62F84100CB8F4F /* DYJheartRateTests */,
+				BD66B4D41D62F84100CB8F4F /* DYJheartRateUITests */,
+				BD66B4AE1D62F84100CB8F4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD66B4AE1D62F84100CB8F4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD66B4AD1D62F84100CB8F4F /* DYJheartRate.app */,
+				BD66B4C61D62F84100CB8F4F /* DYJheartRateTests.xctest */,
+				BD66B4D11D62F84100CB8F4F /* DYJheartRateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD66B4AF1D62F84100CB8F4F /* DYJheartRate */ = {
+			isa = PBXGroup;
+			children = (
+				BD66B4B31D62F84100CB8F4F /* AppDelegate.h */,
+				BD66B4B41D62F84100CB8F4F /* AppDelegate.m */,
+				BD66B4B61D62F84100CB8F4F /* ViewController.h */,
+				BD66B4B71D62F84100CB8F4F /* ViewController.m */,
+				BD66B4E61D62FC0C00CB8F4F /* LDProgressView.h */,
+				BD66B4E71D62FC0C00CB8F4F /* LDProgressView.m */,
+				BD66B4E81D62FC0C00CB8F4F /* UIColor+RGBValues.h */,
+				BD66B4E91D62FC0C00CB8F4F /* UIColor+RGBValues.m */,
+				BD66B4E31D62FA7400CB8F4F /* DYJHeartRateDetectionModel.h */,
+				BD66B4E41D62FA7400CB8F4F /* DYJHeartRateDetectionModel.m */,
+				BD66B4B91D62F84100CB8F4F /* Main.storyboard */,
+				BD66B4BC1D62F84100CB8F4F /* Assets.xcassets */,
+				BD66B4BE1D62F84100CB8F4F /* LaunchScreen.storyboard */,
+				BD66B4C11D62F84100CB8F4F /* Info.plist */,
+				BD66B4B01D62F84100CB8F4F /* Supporting Files */,
+			);
+			path = DYJheartRate;
+			sourceTree = "<group>";
+		};
+		BD66B4B01D62F84100CB8F4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD66B4B11D62F84100CB8F4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD66B4C91D62F84100CB8F4F /* DYJheartRateTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD66B4CA1D62F84100CB8F4F /* DYJheartRateTests.m */,
+				BD66B4CC1D62F84100CB8F4F /* Info.plist */,
+			);
+			path = DYJheartRateTests;
+			sourceTree = "<group>";
+		};
+		BD66B4D41D62F84100CB8F4F /* DYJheartRateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD66B4D51D62F84100CB8F4F /* DYJheartRateUITests.m */,
+				BD66B4D71D62F84100CB8F4F /* Info.plist */,
+			);
+			path = DYJheartRateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD66B4AC1D62F84100CB8F4F /* DYJheartRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD66B4DA1D62F84100CB8F4F /* Build configuration list for PBXNativeTarget "DYJheartRate" */;
+			buildPhases = (
+				BD66B4A91D62F84100CB8F4F /* Sources */,
+				BD66B4AA1D62F84100CB8F4F /* Frameworks */,
+				BD66B4AB1D62F84100CB8F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYJheartRate;
+			productName = DYJheartRate;
+			productReference = BD66B4AD1D62F84100CB8F4F /* DYJheartRate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD66B4C51D62F84100CB8F4F /* DYJheartRateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD66B4DD1D62F84100CB8F4F /* Build configuration list for PBXNativeTarget "DYJheartRateTests" */;
+			buildPhases = (
+				BD66B4C21D62F84100CB8F4F /* Sources */,
+				BD66B4C31D62F84100CB8F4F /* Frameworks */,
+				BD66B4C41D62F84100CB8F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD66B4C81D62F84100CB8F4F /* PBXTargetDependency */,
+			);
+			name = DYJheartRateTests;
+			productName = DYJheartRateTests;
+			productReference = BD66B4C61D62F84100CB8F4F /* DYJheartRateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD66B4D01D62F84100CB8F4F /* DYJheartRateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD66B4E01D62F84100CB8F4F /* Build configuration list for PBXNativeTarget "DYJheartRateUITests" */;
+			buildPhases = (
+				BD66B4CD1D62F84100CB8F4F /* Sources */,
+				BD66B4CE1D62F84100CB8F4F /* Frameworks */,
+				BD66B4CF1D62F84100CB8F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD66B4D31D62F84100CB8F4F /* PBXTargetDependency */,
+			);
+			name = DYJheartRateUITests;
+			productName = DYJheartRateUITests;
+			productReference = BD66B4D11D62F84100CB8F4F /* DYJheartRateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD66B4A51D62F84100CB8F4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = study;
+				TargetAttributes = {
+					BD66B4AC1D62F84100CB8F4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XNMCH4NGTN;
+					};
+					BD66B4C51D62F84100CB8F4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XNMCH4NGTN;
+						TestTargetID = BD66B4AC1D62F84100CB8F4F;
+					};
+					BD66B4D01D62F84100CB8F4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XNMCH4NGTN;
+						TestTargetID = BD66B4AC1D62F84100CB8F4F;
+					};
+				};
+			};
+			buildConfigurationList = BD66B4A81D62F84100CB8F4F /* Build configuration list for PBXProject "DYJheartRate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD66B4A41D62F84100CB8F4F;
+			productRefGroup = BD66B4AE1D62F84100CB8F4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD66B4AC1D62F84100CB8F4F /* DYJheartRate */,
+				BD66B4C51D62F84100CB8F4F /* DYJheartRateTests */,
+				BD66B4D01D62F84100CB8F4F /* DYJheartRateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD66B4AB1D62F84100CB8F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD66B4C01D62F84100CB8F4F /* LaunchScreen.storyboard in Resources */,
+				BD66B4BD1D62F84100CB8F4F /* Assets.xcassets in Resources */,
+				BD66B4BB1D62F84100CB8F4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD66B4C41D62F84100CB8F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD66B4CF1D62F84100CB8F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD66B4A91D62F84100CB8F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD66B4B81D62F84100CB8F4F /* ViewController.m in Sources */,
+				BD66B4EB1D62FC0C00CB8F4F /* UIColor+RGBValues.m in Sources */,
+				BD66B4B51D62F84100CB8F4F /* AppDelegate.m in Sources */,
+				BD66B4E51D62FA7400CB8F4F /* DYJHeartRateDetectionModel.m in Sources */,
+				BD66B4EA1D62FC0C00CB8F4F /* LDProgressView.m in Sources */,
+				BD66B4B21D62F84100CB8F4F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD66B4C21D62F84100CB8F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD66B4CB1D62F84100CB8F4F /* DYJheartRateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD66B4CD1D62F84100CB8F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD66B4D61D62F84100CB8F4F /* DYJheartRateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD66B4C81D62F84100CB8F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD66B4AC1D62F84100CB8F4F /* DYJheartRate */;
+			targetProxy = BD66B4C71D62F84100CB8F4F /* PBXContainerItemProxy */;
+		};
+		BD66B4D31D62F84100CB8F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD66B4AC1D62F84100CB8F4F /* DYJheartRate */;
+			targetProxy = BD66B4D21D62F84100CB8F4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD66B4B91D62F84100CB8F4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD66B4BA1D62F84100CB8F4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD66B4BE1D62F84100CB8F4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD66B4BF1D62F84100CB8F4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD66B4D81D62F84100CB8F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD66B4D91D62F84100CB8F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD66B4DB1D62F84100CB8F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DYJheartRate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sypm.DYJheartRate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BD66B4DC1D62F84100CB8F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DYJheartRate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sypm.DYJheartRate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BD66B4DE1D62F84100CB8F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYJheartRateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sypm.DYJheartRateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYJheartRate.app/DYJheartRate";
+			};
+			name = Debug;
+		};
+		BD66B4DF1D62F84100CB8F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYJheartRateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sypm.DYJheartRateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYJheartRate.app/DYJheartRate";
+			};
+			name = Release;
+		};
+		BD66B4E11D62F84100CB8F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYJheartRateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sypm.DYJheartRateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYJheartRate;
+			};
+			name = Debug;
+		};
+		BD66B4E21D62F84100CB8F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYJheartRateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sypm.DYJheartRateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYJheartRate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD66B4A81D62F84100CB8F4F /* Build configuration list for PBXProject "DYJheartRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD66B4D81D62F84100CB8F4F /* Debug */,
+				BD66B4D91D62F84100CB8F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD66B4DA1D62F84100CB8F4F /* Build configuration list for PBXNativeTarget "DYJheartRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD66B4DB1D62F84100CB8F4F /* Debug */,
+				BD66B4DC1D62F84100CB8F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD66B4DD1D62F84100CB8F4F /* Build configuration list for PBXNativeTarget "DYJheartRateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD66B4DE1D62F84100CB8F4F /* Debug */,
+				BD66B4DF1D62F84100CB8F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD66B4E01D62F84100CB8F4F /* Build configuration list for PBXNativeTarget "DYJheartRateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD66B4E11D62F84100CB8F4F /* Debug */,
+				BD66B4E21D62F84100CB8F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD66B4A51D62F84100CB8F4F /* Project object */;
+}
